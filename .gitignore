@@ -4,3 +4,4 @@ build/
 DerivedData/
 node_modules/
 data-uploader-firebase/firebase-admin-key.json
+TO Childcare Finder/GoogleService-Info.plist
