@@ -3,4 +3,4 @@ build/
 *.xcworkspace
 DerivedData/
 node_modules/
-
+data-uploader-firebase/firebase-admin-key.json
