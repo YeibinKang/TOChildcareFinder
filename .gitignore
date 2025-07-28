@@ -1,0 +1,6 @@
+.DS_Store
+build/
+*.xcworkspace
+DerivedData/
+node_modules/
+
