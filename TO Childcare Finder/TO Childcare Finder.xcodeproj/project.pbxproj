@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		EDDE73FB2E1CC722003BADC1 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = EDDE73FA2E1CC722003BADC1 /* FirebaseCore */; };
 		EDDE73FD2E1CC722003BADC1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EDDE73FC2E1CC722003BADC1 /* FirebaseFirestore */; };
-		EDF218592E1CCCFB007DF6CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDF218582E1CCCFB007DF6CD /* GoogleService-Info.plist */; };
+		EDEB20D22E37DEC200258F45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDEB20D12E37DEC200258F45 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +33,7 @@
 		EDDE51A52E1C43E6003BADC1 /* TO Childcare Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TO Childcare Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDE51B42E1C43E7003BADC1 /* TO Childcare FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TO Childcare FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDE51BE2E1C43E7003BADC1 /* TO Childcare FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TO Childcare FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDF218582E1CCCFB007DF6CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EDEB20D12E37DEC200258F45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -84,7 +84,7 @@
 		EDDE519C2E1C43E6003BADC1 = {
 			isa = PBXGroup;
 			children = (
-				EDF218582E1CCCFB007DF6CD /* GoogleService-Info.plist */,
+				EDEB20D12E37DEC200258F45 /* GoogleService-Info.plist */,
 				EDDE51A72E1C43E6003BADC1 /* TO Childcare Finder */,
 				EDDE51B72E1C43E7003BADC1 /* TO Childcare FinderTests */,
 				EDDE51C12E1C43E7003BADC1 /* TO Childcare FinderUITests */,
@@ -227,7 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDF218592E1CCCFB007DF6CD /* GoogleService-Info.plist in Resources */,
+				EDEB20D22E37DEC200258F45 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

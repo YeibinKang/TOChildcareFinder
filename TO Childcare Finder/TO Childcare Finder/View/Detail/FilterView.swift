@@ -65,7 +65,7 @@ struct FilterView: View {
                 }
                 .padding()
                 .frame(minWidth: 140)
-                .background(Color.orange)
+                .background(Color.gray)
                 .foregroundColor(.white)
                 .cornerRadius(12)
                 
@@ -76,7 +76,7 @@ struct FilterView: View {
                 }
                 .padding()
                 .frame(minWidth: 140)
-                .background(Color.orange)
+                .background(Color.blue)
                 .foregroundColor(.white)
                 .cornerRadius(12)
             }

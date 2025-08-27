@@ -22,7 +22,7 @@ struct BottomListSheet: View {
                 .padding(.bottom, 4)
 
             List(dataManager.filteredCentres) { centre in
-                Text(centre.name) // ← 너가 만든 rowView 써도 좋아
+                Text(centre.name) 
             }
         }
         .background(.ultraThinMaterial)

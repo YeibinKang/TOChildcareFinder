@@ -10,7 +10,9 @@ import FirebaseFirestore
 
 
 struct ChildCareCentre: Codable, Identifiable, Hashable{
-    var id:Int
+    @DocumentID var id: String?
+    
+    var externalId:Int
     var name:String
     var address:String
     var postalCode:String
@@ -26,5 +28,7 @@ struct ChildCareCentre: Codable, Identifiable, Hashable{
     var latitude:Double
     var longitude:Double
     
+    var reviewCount: Int
+   
 }
 
